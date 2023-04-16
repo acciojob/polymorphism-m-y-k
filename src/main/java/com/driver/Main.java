@@ -22,7 +22,7 @@ public class Main {
         }
 
         public double product(double x, double y) {
-            return (double) (x * y);
+            return (x * y);
         }
     }
 }
