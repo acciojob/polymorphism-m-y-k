@@ -11,18 +11,19 @@ public class Main {
 
         System.out.println(ans1 + " " + ans2 + " " + ans3);
     }
+
+    static class Product {
+        public int product(int x, int y) {
+            return x * y;
+        }
+
+        public int product(int x, int y, int z) {
+            return x * y * z;
+        }
+
+        public double product(double x, double y) {
+            return (double) (x * y);
+        }
+    }
 }
 
-class Product {
-    public int product(int x, int y) {
-        return x * y;
-    }
-
-    public int product(int x, int y, int z) {
-        return x * y * z;
-    }
-
-    public double product(double x, double y) {
-        return (double) (x * y);
-    }
-}
